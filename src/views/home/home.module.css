@@ -1,0 +1,27 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 992px) {
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
+
+.paginatorContainer{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px
+}
